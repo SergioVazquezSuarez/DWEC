@@ -1,8 +1,10 @@
 const nombre = "Sergio"
 let edad = 19
-const tieneMascota = false
-tieneMacota = true
+let tieneMascota = false
 edad = 20
-console.log(nombre, edad, tieneMascota)
-console.log(`${nombre} tiene ${edad} años y no tiene mascota.`)
-
+tieneMascota = true
+console.log(nombre)
+console.log(edad)
+console.log(tieneMascota)
+const frase = `${nombre} tiene ${edad} años y tiene mascota.`
+console.log(frase)
